@@ -24,7 +24,7 @@ header {
 }
 
 .logo img {
-  height: 60px;
+  height: 70px;
 }
 
 .menu a {
@@ -37,13 +37,13 @@ header {
 }
 
 .menu a:hover {
-  color: #ff6633;
+  color: #3388f6;
   text-decoration: underline;
 }
 
 .button a {
   display: inline-block;
-  background-color: #ff6633;
+  background-color: #3388f6;
   color: #fff;
   padding: 10px 20px;
   border-radius: 5px;
@@ -54,8 +54,8 @@ header {
 
 .button a:hover {
   background-color: #fff;
-  color: #ff6633;
-  border: 2px solid #ff6633;
+  color: #3388f6;
+  border: 2px solid #3388f6;
 }
 
 main {
@@ -92,15 +92,10 @@ main {
   transition: all 0.3s ease;
 }
 
-.menu a:hover {
-  color: #ff6633;
-  text-decoration: underline;
-}
-
 .button a {
   display: inline-block;
-  background-color: #ff6633;
-  color: #fff;
+  background-color: #3388f6;
+  color: #ffff;
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
@@ -110,8 +105,8 @@ main {
 
 .button a:hover {
   background-color: #fff;
-  color: #ff6633;
-  border: 2px solid #ff6633;
+  color: #3388f6;
+  border: 2px solid #3388f6;
 }
 
 main {
@@ -127,7 +122,7 @@ main {
   font-size: 18px;
 }
 img {
-  height: 100%;
+  width: 100%;
 }
 .hero h1 {
   color: #fff;
@@ -141,8 +136,8 @@ img {
 .hero .button a {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #fff;
-  color: #1F2937;
+  background-color: #3388f6;
+  color: #ffff;
   text-decoration: none;
   font-weight: bold;
   border-radius: 25px;
@@ -150,6 +145,55 @@ img {
 }
 
 .hero .button a:hover {
-  background-color: #2D3A4B;
-  color: #fff;
+  background-color: #ffff;
+  color: #3388f6;
+}
+
+.body {
+  background-color: #fff;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.bodytext{
+  color: black;
+  text-align: center;
+  padding: 50px;
+}
+
+.bodyimages {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  color: black;
+  text-align: center;
+
+}
+.bodyimages .image {
+  display: flex 1;
+  width: 25%;
+  justify-content: center;
+  align-items:  center;
+  padding: 20px;
+}
+.bodyimages .image img {
+  border: 5px solid #3388f6;
+  border-radius: 15px;
+}
+.bodyimages .image img:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
+  border: 2px solid black;
+}
+.bodyimages .image h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+a {
+  color: black; /* set the color to the same as the background color */
+  text-decoration: none; /* remove the underline */
+}
+
+a:hover {
+  color: #3388f6; /* set a different color when the link is hovered over */
 }
