@@ -191,7 +191,7 @@ main {
 }
 .bodyimages .image img:hover {
   transform: scale(1.1);
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease;
   border: 2px solid black;
 }
 .bodyimages .image h4 {
@@ -247,5 +247,81 @@ a:hover {
   text-decoration: none;
   border: 2px solid white;
   border-radius: 5px;
-  transition: background-color 0.3s;
+  transition: all 0.3s ease;
+}
+.call .button a:hover {
+  background-color: #fff;
+  color :#3388f6
+}
+
+footer {
+  background-color: #1F2937;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.column {
+  width: 30%;
+
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons li {
+  margin: 0 10px;
+}
+
+.social-icons li a {
+  color: #fff;
+  font-size: 24px;
+}
+
+/* Font Awesome icons */
+.fa-facebook:before {
+  content: "\f09a";
+}
+
+.fa-twitter:before {
+  content: "\f099";
+}
+
+.fa-instagram:before {
+  content: "\f16d";
+}
+
+.fa-linkedin:before {
+  content: "\f0e1";
+}
+.copyrght {
+  background-color: darkgray;
+  color: black;
+  text-align: center;
+  padding: 40px;
 }
