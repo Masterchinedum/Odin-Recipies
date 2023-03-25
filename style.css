@@ -216,6 +216,7 @@ a:hover {
   padding-top: 50px;
   min-height: 300px;
   margin-top: 150px;
+  margin-bottom: 50px;
 }
 .comments .reviewcomments p {
   font-size: 20px;
@@ -225,4 +226,26 @@ a:hover {
   text-align: right;
   color: #1F2937;
   padding: 10px;
+}
+.call {
+  display: flex;
+  background-color: #3388f6;
+  padding: 50px;
+  border-radius: 15px;
+  margin: 50px;
+  color: #fff;
+  justify-content: space-between;
+}
+.content h3{
+  padding-bottom: 20px;
+}
+.call .button a{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3388f6;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
